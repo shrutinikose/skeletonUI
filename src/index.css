@@ -11,3 +11,27 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+header {
+  background-color: #1e65ff;
+}
+
+header h1 {
+  color: white;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h2 {
+  border: 1px soliid #eee;
+  display: inline;
+  
+}
+
+.content {
+  width: 80%;
+  margin: 20px;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 80px;
+}
