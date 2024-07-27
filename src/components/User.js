@@ -8,8 +8,8 @@ const User = () => {
             const results = await fetch('https://jsonplaceholder.typicode.com/users/1');
             const data = await results.json();
             setProfile(data);
-        },5000)
-    })
+        },5000);
+    });
     return (
         <div className='user'>
             <h2>User Details</h2>
@@ -22,7 +22,7 @@ const User = () => {
             )}
             {!profile && <SkeletonProfile />}
         </div>
-    )
-}
+    );
+};
 
 export default User;

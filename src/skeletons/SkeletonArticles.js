@@ -14,7 +14,7 @@ const SkeletonArticles = ({ theme }) => {
             </div>
             <Shimmer />
         </div>
-    )
+    );
 };
 
 export default SkeletonArticles;

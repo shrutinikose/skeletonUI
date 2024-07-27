@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from 'react';
-import SkeletonElements from '../skeletons/SkeletonElements';
 import SkeletonArticles from '../skeletons/SkeletonArticles';
 
 const Articles = () => {
@@ -9,8 +8,8 @@ const Articles = () => {
             const result = await fetch('https://jsonplaceholder.typicode.com/posts');
             const data = await result.json();
             setArticles(data);
-        }, 5000)
-    })
+        }, 5000);
+    });
     return (
         <div className='articles'>
             <h2>Articles</h2>
@@ -22,6 +21,6 @@ const Articles = () => {
             ))}
             {!articles && [1,2,3,4,5].map(item => <SkeletonArticles theme='light' />)}
         </div>
-    )
-}
+    );
+};
 export default Articles;

@@ -7,12 +7,12 @@ function App() {
       <header>
          <h1>React Skeletons UI</h1>
       </header>
-      <div className='content' style={{ margin: '50px' }}>
+      <div className='content'>
         <Articles />
         <User />
       </div>
     </div>
   );
-}
+};
 
 export default App;

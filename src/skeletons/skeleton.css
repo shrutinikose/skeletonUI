@@ -42,6 +42,8 @@
     position: relative;
 }
 
+/* themes */
+
 .skeleton-wrapper.light {
     background-color: #f2f2f2;
 }

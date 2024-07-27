@@ -18,7 +18,7 @@ const SkeletonProfile = ({ theme }) => {
             </div>
             <Shimmer />
         </div>
-    )
+    );
 };
 
 export default SkeletonProfile;
